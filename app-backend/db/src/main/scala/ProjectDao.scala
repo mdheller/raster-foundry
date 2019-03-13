@@ -17,6 +17,9 @@ import java.sql.Timestamp
 import java.time.temporal.IsoFields
 import java.util.UUID
 
+@SuppressWarnings(Array("EmptyCaseClass"))
+final case class ProjectDao()
+
 object ProjectDao
     extends Dao[Project]
     with AWSBatch
