@@ -4,6 +4,22 @@
 
 ### Added
 
+- Added `ActionType` for `CREATE` [\#4992](https://github.com/raster-foundry/raster-foundry/pull/4992)
+- Added `ObjectType` for all entities [\#4992](https://github.com/raster-foundry/raster-foundry/pull/4992)
+- Added job to backfill low-zoom overviews for existing project layers [\#4970](https://github.com/raster-foundry/raster-foundry/pull/4970)
+- Convert BacksplashImage to a trait [\#4952](https://github.com/raster-foundry/raster-foundry/pull/4952)
+- Kickoff project layer overview generation reactively [\#4936](https://github.com/raster-foundry/raster-foundry/pull/4936)
+- Added ability to persist container service core dumps [\#4955](https://github.com/raster-foundry/raster-foundry/pull/4955)
+- Added database support for tasks on projects + project layers [\#4996](https://github.com/raster-foundry/raster-foundry/pull/4996)
+- Support storing processed uploads in source bucket [\#4997](https://github.com/raster-foundry/raster-foundry/pull/4997)
+- Add spec for user scopes CRUD [\#5002](https://github.com/raster-foundry/raster-foundry/pull/5002)
+- Use zoom level in OverviewInput for lambda function to generate layer overviews [\#4998](https://github.com/raster-foundry/raster-foundry/pull/4998)
+- Added endpoints for project layer "tasks" [\#5008](https://github.com/raster-foundry/raster-foundry/pull/5008)
+- Add user scope migration and data model [\#5009](https://github.com/raster-foundry/raster-foundry/pull/5009)
+- Updated healthcheck to include loading tile metadata [\#5017](https://github.com/raster-foundry/raster-foundry/pull/5017)
+- Added task grid endpoint [\#5021](https://github.com/raster-foundry/raster-foundry/pull/5021)
+- Made tile server report that it's sick after it serves a number of requests [\#5024](https://github.com/raster-foundry/raster-foundry/pull/5024)
+
 ### Changed
 
 ### Deprecated
